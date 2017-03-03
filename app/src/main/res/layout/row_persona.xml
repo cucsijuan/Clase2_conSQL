@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+
+        />
+
+
+    <TextView
+        android:id="@+id/nombre_de_persona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre y Apellido"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="50dp"
+        android:textSize="22sp"
+        android:layout_toRightOf="@+id/foto"
+
+        />
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1234-56789"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="50dp"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_below="@id/nombre_de_persona"
+
+        />
+
+</RelativeLayout>
